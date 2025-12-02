@@ -1,0 +1,90 @@
+# ------------------------------------
+# Python cache / build artifacts
+# ------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pkl
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+
+# ------------------------------------
+# Machine Learning / PyTorch
+# ------------------------------------
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# TensorBoard
+runs/
+
+# Cached datasets
+datasets/
+fer2013/
+data/
+pose_debug/
+stick_output/
+stick_output_checkpoint/
+stick_output_final/
+raw_data/
+processed_data/
+
+# HuggingFace cache
+~/.cache/huggingface/
+hf_cache/
+
+# ------------------------------------
+# Images, outputs, figures
+# ------------------------------------
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+
+# But allow face sketch assets used in the paper
+!face_examples/*.png
+!face_examples/*.jpg
+
+# ------------------------------------
+# IDE / Editor settings
+# ------------------------------------
+.vscode/
+.idea/
+*.iml
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+desktop.ini
+
+# ------------------------------------
+# Misc
+# ------------------------------------
+*.zip
+*.tar
+*.tar.gz
