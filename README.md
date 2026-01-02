@@ -1,4 +1,4 @@
-# Emotion-Aware Stick-Figure Abstraction from Photos
+# EmotiStick: Emotion-Aware Stick-Figure Abstraction from Photos
 
 ## Author: Dhruv Yalamanchi (Columbia University)
 
